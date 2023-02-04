@@ -51,7 +51,7 @@ input, select {
     display: none;
 }
 
-/*Header*/
+/*HEADER*/
 
 .container {
     max-width: 450px;
@@ -66,3 +66,30 @@ input, select {
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #ccc
 }
+
+/*LIST FORM*/
+
+#list-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#list-form p, 
+#edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: .3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
+
